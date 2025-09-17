@@ -1,0 +1,17 @@
+﻿F:\software\VisualStudio\IDE\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1122,5): warning MSB8027: 名为 Robot.cpp 的两个或更多文件将生成到同一位置的输出。这会导致错误的生成结果。   调用的文件是 F:\software\Webots\Webots\src\controller\cpp\Robot.cpp, robot.cpp。
+  leg.cpp
+D:\Cpplabrary\eigen-3.4.0\eigen-3.4.0\Eigen\src\Core\arch\Default\Half.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“leg.cpp”)
+  
+D:\Cpplabrary\eigen-3.4.0\eigen-3.4.0\Eigen\src\Core\arch\Default\BFloat16.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“leg.cpp”)
+  
+D:\Cpplabrary\eigen-3.4.0\eigen-3.4.0\Eigen\src\Core\arch\Default\GenericPacketMathFunctions.h(676,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“leg.cpp”)
+  
+controller_mpc\x64\Release\robot.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+  正在生成代码
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+  All 444 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  controller_mpc.vcxproj -> C:\Users\belov\Desktop\legged_wheel\webots\controllers\controller_mpc\controller_mpc.exe

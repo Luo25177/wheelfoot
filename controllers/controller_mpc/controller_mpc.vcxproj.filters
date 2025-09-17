@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="$(WEBOTS_HOME)\src\controller\cpp\Accelerometer.cpp">
+      <Filter>webots</Filter>
+    </ClCompile>
+    <ClCompile Include="$(WEBOTS_HOME)\src\controller\cpp\Brake.cpp">
+      <Filter>webots</Filter>
+    </ClCompile>
+    <ClCompile Include="$(WEBOTS_HOME)\src\controller\cpp\Camera.cpp">
+      <Filter>webots</Filter>
+    </ClCompile>
+    <ClCompile Include="$(WEBOTS_HOME)\src\controller\cpp\Compass.cpp">
+      <Filter>webots</Filter>
+    </ClCompile>
+    <ClCompile Include="$(WEBOTS_HOME)\src\controller\cpp\Connector.cpp">
+      <Filter>webots</Filter>
+    </ClCompile>
+    <ClCompile Include="$(WEBOTS_HOME)\src\controller\cpp\Device.cpp">
+      <Filter>webots</Filter>
+    </ClCompile>
+    <ClCompile Include="$(WEBOTS_HOME)\src\controller\cpp\DifferentialWheels.cpp">
+      <Filter>webots</Filter>
+    </ClCompile>
+    <ClCompile Include="$(WEBOTS_HOME)\src\controller\cpp\Display.cpp">
+      <Filter>webots</Filter>
+    </ClCompile>
+    <ClCompile Include="$(WEBOTS_HOME)\src\controller\cpp\DistanceSensor.cpp">
+      <Filter>webots</Filter>
+    </ClCompile>
+    <ClCompile Include="$(WEBOTS_HOME)\src\controller\cpp\Emitter.cpp">
+      <Filter>webots</Filter>
+    </ClCompile>
+    <ClCompile Include="$(WEBOTS_HOME)\src\controller\cpp\Field.cpp">
+      <Filter>webots</Filter>
+    </ClCompile>
+    <ClCompile Include="$(WEBOTS_HOME)\src\controller\cpp\GPS.cpp">
+      <Filter>webots</Filter>
+    </ClCompile>
+    <ClCompile Include="$(WEBOTS_HOME)\src\controller\cpp\Gyro.cpp">
+      <Filter>webots</Filter>
+    </ClCompile>
+    <ClCompile Include="$(WEBOTS_HOME)\src\controller\cpp\InertialUnit.cpp">
+      <Filter>webots</Filter>
+    </ClCompile>
+    <ClCompile Include="$(WEBOTS_HOME)\src\controller\cpp\Joystick.cpp">
+      <Filter>webots</Filter>
+    </ClCompile>
+    <ClCompile Include="$(WEBOTS_HOME)\src\controller\cpp\Keyboard.cpp">
+      <Filter>webots</Filter>
+    </ClCompile>
+    <ClCompile Include="$(WEBOTS_HOME)\src\controller\cpp\LED.cpp">
+      <Filter>webots</Filter>
+    </ClCompile>
+    <ClCompile Include="$(WEBOTS_HOME)\src\controller\cpp\Lidar.cpp">
+      <Filter>webots</Filter>
+    </ClCompile>
+    <ClCompile Include="$(WEBOTS_HOME)\src\controller\cpp\LightSensor.cpp">
+      <Filter>webots</Filter>
+    </ClCompile>
+    <ClCompile Include="$(WEBOTS_HOME)\src\controller\cpp\Motion.cpp">
+      <Filter>webots</Filter>
+    </ClCompile>
+    <ClCompile Include="$(WEBOTS_HOME)\src\controller\cpp\Motor.cpp">
+      <Filter>webots</Filter>
+    </ClCompile>
+    <ClCompile Include="$(WEBOTS_HOME)\src\controller\cpp\Mouse.cpp">
+      <Filter>webots</Filter>
+    </ClCompile>
+    <ClCompile Include="$(WEBOTS_HOME)\src\controller\cpp\Node.cpp">
+      <Filter>webots</Filter>
+    </ClCompile>
+    <ClCompile Include="$(WEBOTS_HOME)\src\controller\cpp\Pen.cpp">
+      <Filter>webots</Filter>
+    </ClCompile>
+    <ClCompile Include="$(WEBOTS_HOME)\src\controller\cpp\PositionSensor.cpp">
+      <Filter>webots</Filter>
+    </ClCompile>
+    <ClCompile Include="$(WEBOTS_HOME)\src\controller\cpp\Radar.cpp">
+      <Filter>webots</Filter>
+    </ClCompile>
+    <ClCompile Include="$(WEBOTS_HOME)\src\controller\cpp\RangeFinder.cpp">
+      <Filter>webots</Filter>
+    </ClCompile>
+    <ClCompile Include="$(WEBOTS_HOME)\src\controller\cpp\Receiver.cpp">
+      <Filter>webots</Filter>
+    </ClCompile>
+    <ClCompile Include="$(WEBOTS_HOME)\src\controller\cpp\Robot.cpp">
+      <Filter>webots</Filter>
+    </ClCompile>
+    <ClCompile Include="$(WEBOTS_HOME)\src\controller\cpp\Skin.cpp">
+      <Filter>webots</Filter>
+    </ClCompile>
+    <ClCompile Include="$(WEBOTS_HOME)\src\controller\cpp\Speaker.cpp">
+      <Filter>webots</Filter>
+    </ClCompile>
+    <ClCompile Include="$(WEBOTS_HOME)\src\controller\cpp\Supervisor.cpp">
+      <Filter>webots</Filter>
+    </ClCompile>
+    <ClCompile Include="$(WEBOTS_HOME)\src\controller\cpp\TouchSensor.cpp">
+      <Filter>webots</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="leg.cpp">
+      <Filter>robot</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.hpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="wheel_legged.cpp">
+      <Filter>robot</Filter>
+    </ClCompile>
+    <ClCompile Include="low_level_state.hpp">
+      <Filter>low_level</Filter>
+    </ClCompile>
+    <ClCompile Include="low_level_cmd.hpp">
+      <Filter>low_level</Filter>
+    </ClCompile>
+    <ClCompile Include="cmd_panel.hpp">
+      <Filter>io_interface</Filter>
+    </ClCompile>
+    <ClCompile Include="io_webots.cpp">
+      <Filter>io_interface</Filter>
+    </ClCompile>
+    <ClCompile Include="io_keyboard.cpp">
+      <Filter>io_interface</Filter>
+    </ClCompile>
+    <ClCompile Include="passive_state.cpp">
+      <Filter>fsm</Filter>
+    </ClCompile>
+    <ClCompile Include="balance_state.cpp">
+      <Filter>fsm</Filter>
+    </ClCompile>
+    <ClCompile Include="balance_control.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+    <ClCompile Include="low_pass_filter.cpp">
+      <Filter>filter</Filter>
+    </ClCompile>
+    <ClCompile Include="estimator.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="webots">
+      <UniqueIdentifier>{68e2fff2-6266-449d-b90e-3bf93260018b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="robot">
+      <UniqueIdentifier>{d8014a7f-34cc-434f-a440-63edf66c4b6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{70e3eb53-f88e-4655-ba94-5cf4dd72f045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="low_level">
+      <UniqueIdentifier>{0727f0b4-b848-4cfe-b2fe-5bee6cecf5a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="io_interface">
+      <UniqueIdentifier>{6a43c24e-1e2c-41b6-9dd2-13d1ad8d95ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fsm">
+      <UniqueIdentifier>{8854d3ac-2724-464a-9b1a-2c95ea37e24c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="control">
+      <UniqueIdentifier>{e0f8b7d5-303e-4fb1-a87e-f9766f7ea9f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filter">
+      <UniqueIdentifier>{d26ce6e8-118d-46d1-bfc7-1ae4bd2966aa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="leg.hpp">
+      <Filter>robot</Filter>
+    </ClInclude>
+    <ClInclude Include="enums.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="types.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="wheel_legged.hpp">
+      <Filter>robot</Filter>
+    </ClInclude>
+    <ClInclude Include="io_interface.hpp">
+      <Filter>io_interface</Filter>
+    </ClInclude>
+    <ClInclude Include="io_webots.hpp">
+      <Filter>io_interface</Filter>
+    </ClInclude>
+    <ClInclude Include="io_keyboard.hpp">
+      <Filter>io_interface</Filter>
+    </ClInclude>
+    <ClInclude Include="fsm_state_base.hpp">
+      <Filter>fsm</Filter>
+    </ClInclude>
+    <ClInclude Include="passive_state.hpp">
+      <Filter>fsm</Filter>
+    </ClInclude>
+    <ClInclude Include="balance_state.hpp">
+      <Filter>fsm</Filter>
+    </ClInclude>
+    <ClInclude Include="balance_control.hpp">
+      <Filter>control</Filter>
+    </ClInclude>
+    <ClInclude Include="low_pass_filter.hpp">
+      <Filter>filter</Filter>
+    </ClInclude>
+    <ClInclude Include="estimator.hpp">
+      <Filter>control</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
